@@ -1,10 +1,3 @@
-avro data searization
-kita fokus ke pembuatan pembentukan skemanya, coba buat skema.
-user.avsc
-organisation
-  fields= kolom requirement
-  null tipe data primitive
-
-  diambil dari data warehaouse, di transformasi ke kafka stream di oper lagi ke data warehouse
-
-  connect ke bq dengan kafka connect
+The Pipeline of Avro
+Make Schema Registry (user.avsc)-> Produce -> Topic -> Consumer
+You can check it also in control center
